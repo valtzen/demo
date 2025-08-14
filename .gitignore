@@ -1,20 +1,19 @@
-# Python cache
 __pycache__/
 *.py[cod]
 *.so
-
-# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# Environment files / virtual envs
-.env
 .venv/
-env/
-*.yml
-*.yaml
-
-# Data files
+venv/
+.env
+.envrc
+env/*
+!env/environment.yml
+!env/README.md
 data/
-
-# OS files
+*.grib
+*.grib2
+*.bufr
+*.nc
 .DS_Store
+.vscode/
+*.log

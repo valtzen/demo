@@ -1,0 +1,23 @@
+name: ecmwf-open-data-jupyter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - pandas
+  - xarray
+  - scipy
+  - matplotlib
+  - cartopy
+  - shapely
+  - pyproj
+  - eccodes                # GRIB backend for earthkit-data
+  - requests
+  - beautifulsoup4
+  - earthkit-data>=0.16.0
+  - earthkit-plots>=0.3.2
+  - ecmwf-opendata>=0.3.20
+  - metpy                  # Skew-T, CAPE/CIN, parcel paths, shear
+  - pint                   # units used by MetPy
